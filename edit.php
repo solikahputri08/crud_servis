@@ -59,7 +59,9 @@ if (isset($_POST['update'])) {
          <select name="jenis_perangkat">
             <option value="Laptop" <?php if ($data['jenis_perangkat'] == 'Laptop') echo 'selected'; ?>>Laptop</option>
             <option value="Pc Desktop" <?php if ($data['status_servis'] == 'Pc Desktop') echo 'selected'; ?>>Pc Desktop</option>
-            <option value="Diambil" <?php if ($data['status_servis'] == 'Diambil') echo 'selected'; ?>>Diambil</option>
+            <option value="Printer" <?php if ($data['status_servis'] == 'Printer') echo 'selected'; ?>>Printer</option>
+            <option value="Proyektor" <?php if ($data['status_servis'] == 'Proyektor') echo 'selected'; ?>>Proyektor</option>
+            <option value="Jaringan" <?php if ($data['status_servis'] == 'Jaringan') echo 'selected'; ?>>Jaringan</option>
         </select><br><br>
 
         <button type="submit" name="update">Update</button>

@@ -57,7 +57,7 @@ if ($cari != '') {
             <td><?php echo $no++; ?></td>
             <td><?php echo $data['no_nota']; ?></td>
             <td><?php echo $data['nama_pelanggan']; ?></td>
-            <td><?php echo $data['biaya']; ?></td>
+            <td><?php echo number_format ($data['biaya'], 0, ',', '.'); ?></td>
             <td><?php echo $data['keluhan']; ?></td>
             <td><?php echo $data['status_servis']; ?></td>
             <td><?php echo $data['jenis_perangkat']; ?></td>
